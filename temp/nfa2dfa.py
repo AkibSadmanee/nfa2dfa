@@ -1,7 +1,3 @@
-# nfa = [[[3], ['ϕ'], [2]], [['ϕ'], [2, 3], [3]], [['ϕ'], [1], ['ϕ']]]
-# alphabets = ['ε', 'a', 'b']
-# dfa_states = [[], [1], [2], [3], [1, 2], [1, 3], [2, 3], [1, 2, 3]][1:]
-
 from itertools import chain, combinations
 
 def take_alphabet():
