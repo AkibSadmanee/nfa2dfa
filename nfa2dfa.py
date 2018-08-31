@@ -213,7 +213,7 @@ def create_dfa_transition_table(dfa_states, alphabets, nfa, statenum):
                 flag = False
          
             #cheke if there in no lambda transition
-            if 'ϕ' not in nfa[i][eps_ind][0]:
+            if 'ϕ' not in nfa[i][eps_ind]:
                 eps_list = eps_list + nfa[i][eps_ind]
                 flag = False
             
@@ -226,7 +226,7 @@ def create_dfa_transition_table(dfa_states, alphabets, nfa, statenum):
                 if 'ϕ' not in nfa[k-1][nfa_col]:
                     dfa[i][j]= dfa[i][j] + (nfa[k-1][nfa_col])
                 
-                if 'ϕ' not in nfa[k-1][eps_ind][0]:
+                if 'ϕ' not in nfa[k-1][eps_ind]:
                     print(nfa[k-1][eps_ind])
                     eps_list = eps_list + nfa[i][eps_ind]
     for i in range(statenum):
