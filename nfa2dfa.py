@@ -67,8 +67,8 @@ def create_nfa_transition_table(statenum, alphabets):
     print("\nGETTING TRANSITION TABLE READY")
     print(
     """
-    Enter 'none' if there is no transition from a state, we will denote that wih a 'ϕ'
-    Enter 'done' for finishing taking input for a perticular state and alphabet 
+    Enter 'none' if there is no transition from a state, we will denote that with a 'ϕ'
+    Enter 'done' for finishing taking input for a particular state and alphabet 
     """)
 
     #empty 2D list for NFA
