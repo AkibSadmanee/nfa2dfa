@@ -1,6 +1,6 @@
 The code is written in <b>Python3</b> <br>
 
-On Linux, to run the code, use
+On Linux, to run the code, use the following command in the terminal.
 ```
 $ python3 nfa2dfa.py
 ```
